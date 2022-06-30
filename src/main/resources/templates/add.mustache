@@ -1,0 +1,20 @@
+{{>layout/header}}
+<h1>게시글 등록</h1>
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form id="myform">
+            <div class="form-group">
+                <label for="boTitle">제목</label>
+                <input type="text" class="form-control" id="boTitle" name="boTitle" placeholder="제목을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="boContents">내용</label>
+                <input type="text" class="form-control" id="boContents" name="boContents" placeholder="내용을 입력하세요">
+            </div>
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" id="btn-save" class="btn btn-primary">등록</button>
+    </div>
+</div>
+{{>layout/footer}}
+
